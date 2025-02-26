@@ -75,6 +75,7 @@ body{
 .collections{
     width: 100vw;
     padding: 40px;
+    box-shadow: 0 0 30px rgb(0, 0, 0,1);
 }
 .collectionsTitle, .infoTitle{
     font-size: 350%;
@@ -115,3 +116,41 @@ body{
 .info p{
     max-width: 50ch;
 } 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background: color 05190A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: (255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+.cover_box {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid #c9c8c8;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
