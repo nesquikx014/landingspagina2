@@ -6,30 +6,30 @@
 }
 
 body{
-    font-size: 20px;
+    font-size: 2rem;
     font-family: italic;
 }
 .header{
     background: black;
     display: flex;
-    height: 60px;
+    height: 5rem;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2rem;
 
 }
 .headerTitle{
     color: white;
     text-transform: uppercase;
-    font-size: 200%;
+    font-size: 4rem;
 }
 .headerButton{
     text-transform: uppercase;
     background: transparent;
     color: white;
     border: none;
-    font-size: 150%;
-    letter-spacing: 2px;
+    font-size: 3rem;
+    letter-spacing: 0,1rem;
 }
 .headerButton:hover{
     cursor: pointer;
@@ -52,10 +52,10 @@ body{
 }
 .mainNavigationListItem{
     color: white;
-    font-size: 200%;
+    font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .mainNavigationListItem > a {
     text-decoration: none;
@@ -74,25 +74,25 @@ body{
 
 .collections{
     width: 100vw;
-    padding: 40px;
+    padding: 2rem;
     box-shadow: 0 0 30px rgb(0, 0, 0,1);
 }
 .collectionsTitle, .infoTitle{
     font-size: 350%;
     color: black;
     text-transform: uppercase;
-    font-weight: 400;
-    margin-bottom: 40px;
+    font-weight: 2rem;
+    margin-bottom: 1rem;
 }
 .collectionsList{
     list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 .collectionsListItem{
-    width: 500px;
-    height: 400px;
+    width: 30rem;
+    height: 30rem;
     background: black;
     flex-shrink: 0;
     flex-grow: 1;
